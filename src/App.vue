@@ -26,7 +26,7 @@ import Footer from './components/Footer.vue'
 
 <style>
 :root {
-  --primary-color: #2563eb;
+  --primary-color: #1533aa;
   --primary-hover: #1d4ed8;
   --text-main: #1f2937;
   --text-secondary: #4b5563;
