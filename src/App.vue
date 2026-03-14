@@ -1,16 +1,20 @@
 <template>
   <div id="app">
-    <HeroSection />
-    <WhyImportant />
-    <WhoNeedsIt />
-    <WhatToDo />
-    <HowToSubmit />
-    <FreeCheck />
-    <Footer />
+    <Header />
+    <main class="main-content">
+      <HeroSection />
+      <WhyImportant />
+      <WhoNeedsIt />
+      <WhatToDo />
+      <HowToSubmit />
+      <FreeCheck />
+      <Footer />
+    </main>
   </div>
 </template>
 
 <script setup>
+import Header from './components/Header.vue'
 import HeroSection from './components/HeroSection.vue'
 import WhyImportant from './components/WhyImportant.vue'
 import WhoNeedsIt from './components/WhoNeedsIt.vue'
@@ -34,6 +38,20 @@ import Footer from './components/Footer.vue'
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: system-ui, -apple-system, sans-serif; color: var(--text-main); line-height: 1.6; }
-.container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  color: var(--text-main);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.main-content {
+  margin-top: 70px;
+}
 </style>

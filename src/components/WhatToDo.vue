@@ -1,5 +1,5 @@
 <template>
-  <section class="section">
+  <section class="section" id="what">
     <div class="container">
       <h2>Что можно сделать сейчас</h2>
 

@@ -1,5 +1,5 @@
 <template>
-<section class="section">
+<section class="section" id="why">
 <div class="container">
   <h2>Почему это важно</h2>
   <div class="grid-2">

@@ -1,5 +1,5 @@
 <template>
-  <section class="section bg-light">
+  <section class="section bg-light" id="who">
     <div class="container">
       <h2>Кому стоит проверить объект</h2>
       <p class="subtitle">Проверка актуальна для владельцев:</p>

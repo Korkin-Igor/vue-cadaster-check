@@ -1,5 +1,5 @@
 <template>
-  <section class="section bg-light">
+  <section class="section bg-light" id="how">
     <div class="container">
       <h2>Как подать декларацию</h2>
 
