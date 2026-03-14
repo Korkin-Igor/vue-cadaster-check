@@ -21,6 +21,8 @@
       <p class="note">Проверка данных помогает избежать этих проблем.</p>
     </div>
     <div class="visual-block">
+      <h2>Индекс стоимости недвижимости в Ставропольском крае</h2>
+      <h3>Средний уровень цен на недвижимость, руб/кв.м.</h3>
       <img class="statistics-img" alt="statistics" src="../assets/statistics.png">
     </div>
   </div>
@@ -54,7 +56,26 @@ h2 { font-size: 32px; margin-bottom: 40px; text-align: center; }
 .note { font-style: italic; color: var(--text-secondary); }
 
 .visual-block {
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  align-items: center;
+}
+
+.visual-block h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.visual-block h3 {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.visual-block h2,
+.visual-block h3 {
+  margin: 0;
+  text-align: center;
 }
 
 .statistics-img {
