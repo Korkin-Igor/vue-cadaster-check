@@ -30,16 +30,21 @@ const scrollToCheck = () => {
 
 <style scoped>
 .hero {
-  background-color: var(--bg-light);
+  background-image: url("../assets/map.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 80px 0;
   text-align: center;
 }
 
 .hero-content {
+  background-color: rgba(255, 255, 255, .95);
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
+  padding: 20px;
 }
 
 .badge {
