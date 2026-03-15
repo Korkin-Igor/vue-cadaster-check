@@ -5,21 +5,24 @@
 
       <div class="footer-content">
         <p class="desc">
-          Свяжитесь с нами. Специалисты помогут проверить данные объекта и подскажут дальнейшие действия.
+          Свяжитесь с&nbsp;нами. Специалисты помогут проверить данные объекта&nbsp;и подскажут дальнейшие действия.
         </p>
 
         <div class="contacts">
-          <a href="#" class="contact-item">
-            <span>📞</span> [номер телефона]
+          <a href="tel:+79604993376" class="contact-item">
+            <span>📞</span> +7&nbsp;(960)&nbsp;499-33-76
           </a>
-          <a href="#" class="contact-item">
-            <span>✉️</span> [Email / Telegram]
+          <a target="_blank" href="mailto:adm@fzkadastr.ru" class="contact-item">
+            <span>✉️</span> adm@fzkadastr.ru
+          </a>
+          <a target="_blank" href="https://t.me/obuchenie_lider" class="contact-item">
+            <img class="tg-logo" alt="tg-image" src="../assets/tg-logo.png"> @obuchenie_lider
           </a>
         </div>
       </div>
 
       <div class="copyright">
-        &copy; 2026 Общество с ограниченной ответственностью "Лидер". Все права защищены.
+        &copy 2026 Общество с ограниченной ответственностью "Лидер". Все права защищены.
       </div>
     </div>
   </footer>
@@ -58,6 +61,11 @@ h2 { color: white; font-size: 28px; margin-bottom: 30px; }
 }
 
 .contact-item:hover { color: var(--primary-color); }
+
+.tg-logo {
+  width: 25px;
+  border-radius: 50%;
+}
 
 .copyright {
   border-top: 1px solid #374151;

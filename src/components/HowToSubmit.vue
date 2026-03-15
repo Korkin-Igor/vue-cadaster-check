@@ -60,6 +60,12 @@ h2 { font-size: 32px; text-align: center; margin-bottom: 40px; }
   font-size: 18px;
 }
 
+.methods-list li:hover {
+  transform: translateY(-3px);
+  transition: .3s;
+  box-shadow: 0 2px 10px #aaa;
+}
+
 .emoji {
   width: 20px;
 }

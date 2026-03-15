@@ -11,7 +11,7 @@
           </ul>
         </div>
         <div class="free-badge">
-          Проверка и консультация бесплатны.
+          Проверка&nbsp;и консультация бесплатны.
         </div>
       </div>
 
@@ -408,7 +408,6 @@ h2 { font-size: 36px; }
   cursor: not-allowed;
 }
 
-/* Анимации */
 .form-slide-enter-active,
 .form-slide-leave-active {
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);

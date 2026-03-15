@@ -8,8 +8,8 @@
       <WhatToDo />
       <HowToSubmit />
       <FreeCheck />
-      <Footer />
     </main>
+    <Footer />
   </div>
 </template>
 
