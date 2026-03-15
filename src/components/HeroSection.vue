@@ -89,5 +89,6 @@ h1 {
 @media (max-width: 768px) {
   h1 { font-size: 28px; }
   .hero { padding: 40px 0; }
+  .hero-content { max-width: 95%; }
 }
 </style>
