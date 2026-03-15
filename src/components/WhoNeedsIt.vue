@@ -200,15 +200,15 @@ onUnmounted(() => {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 4px;
+  height: 5px;
   background: linear-gradient(90deg, #2563eb, #3b82f6);
-  transform: scaleX(0);
-  transition: transform 0.3s ease;
+  opacity: 0;
   transform-origin: left;
 }
 
 .card:hover .card-decoration {
-  transform: scaleX(1);
+  opacity: 1;
+  transition: .6s;
 }
 
 @keyframes fadeInUp {
