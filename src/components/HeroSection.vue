@@ -2,11 +2,13 @@
   <section class="hero">
     <div class="container hero-content">
       <span class="badge">Ставропольский край</span>
-      <h1>
-        <p>Получить бесплатно инструкцию для собственников недвижимости, что&nbsp;обязательно сделать</p>
-        <p class="danger">до 01&nbsp;января 2027&nbsp;года</p>
-      </h1>
+      <h1>Переоценка недвижимости в 2027 году</h1>
+      <h2>В 2027 году в регионе пройдет государственная кадастровая оценка.
+        По её результатам будет рассчитываться налог на имущество на ближайшие 4 года.</h2>
       <h2 class="lead">
+        <p>Получить бесплатно инструкцию для собственников недвижимости, что&nbsp;обязательно сделать
+          <span class="danger">до 01&nbsp;января 2027&nbsp;года</span>
+        </p>
         <p>Почему нужна инструкция? В&nbsp;правительстве призвали</p>
         <a href="https://vk.com/wall-143818234_493082?ysclid=mn04gu8c47936628106" target="_blank">
           резко поднять кадастровую стоимость
@@ -86,7 +88,6 @@ const submitForm = async () => {
     const response = await fetch('../send-mail.php', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      // Отправляем чистые цифры или форматированную строку — на ваш вкус
       body: JSON.stringify({
         phone: phone.value,
         rawPhone: phone.value.replace(/\D/g, ''),
