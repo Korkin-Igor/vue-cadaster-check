@@ -64,6 +64,10 @@ const phone = ref('');
 const isSending = ref(false);
 const vError = ref('');
 
+const scrollToCheck = () => {
+  document.getElementById('free-check-section')?.scrollIntoView({ behavior: 'smooth' });
+};
+
 // Проверка: заполнен ли номер полностью (11 цифр с учетом +7)
 const isPhoneComplete = computed(() => {
   return phone.value.replace(/\D/g, '').length === 11;
